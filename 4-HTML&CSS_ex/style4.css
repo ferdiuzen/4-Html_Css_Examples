@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    /* boxları alt alta gösterir */
+}
+
+.box {
+    background-color: lightgray;
+    padding: 10px;
+    width: 25%;
+    border: 1px solid black;
+}
+
+/*Tablet */
+@media(max-width:768px) {
+
+    /*sayfa genişliği 768in altına indiğinde box genişliği %50 yapılır */
+    .box {
+        width: 50%;
+        background-color: rgb(186, 182, 190);
+    }
+}
+
+/*Telefon*/
+@media(max-width:500px) {
+    .box {
+        width: 100%;
+    }
+}
+
+

@@ -1,0 +1,100 @@
+
+body{
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQSMngyf5oMhMArA1ZtLfOIfms1WA7I8qELv05j9u1aChSocVcWMlHDmnCmIdLcErxdTg&usqp=CAU');
+    background-repeat: no-repeat;
+}
+table{
+    border: 2px solid black ;
+    border-collapse:collapse;
+    width: 100%;
+  }
+
+   td,th{
+    border:1px solid #dddddd;
+    text-align: left; /*yazıyı sola yaslar */
+    padding: 10px;
+}
+    tr:nth-child(even){  /* ara satırlar renklendirilir */
+        background-color:rgb(100, 100, 100); 
+    }
+    
+ h1 {background-color: rgba(255, 0, 0, 0.3);}
+ h2 {background-color: rgba(255, 0, 0, 0.5);}
+ h3 {background-color: rgba(255, 0, 0, 0.7);}
+
+ h4 {background-color: hsl(120, 100%, 50%);}  /* green */
+
+a{
+background-color: blue;
+color:white;
+display:inline-block;
+font-size: 3vw;
+text-decoration:none ;
+border-radius: 1vw; /*köşeleri oval yapar */
+padding: 1vw; /*dıştan boşluk */
+
+}
+
+a:hover{
+    background-color: white;
+    color:blue;
+    border:1px solid blue;
+}
+
+
+
+ 
+ /*
+ a {
+    color:blue;
+    font-size:3vw;
+    background-color:transparent;
+    text-decoration: none; /*Alt çizgiyi kaldırır 
+ }
+
+a:hover{color: red;  /*Linkin üzerine geldiğinde
+    background-color: transparent;
+    text-decoration: underline;
+
+}
+
+a:visited{ /*ziyaret edilip dönüldüğünde
+    color:green;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:active{  /*basıldığı andaki durum
+    color:darkmagenta;
+    background-color: transparent;
+    text-decoration: none;
+}
+*/
+/*
+ 
+ a {
+    color:blue;
+    font-size:3vw;
+    background-color:transparent;
+    text-decoration: none; /*Alt çizgiyi kaldırır 
+ }
+
+a:hover{color: red;
+    background-color: transparent;
+    text-decoration: underline;
+
+}
+*/
+
+/*
+ a{
+    color:white;
+    font-size:5vw;
+    display:inline-block;
+    background: blue;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+
+ }
+ */

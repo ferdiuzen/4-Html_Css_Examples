@@ -1,0 +1,41 @@
+*{
+box-sizing: border-box; /*box ebatını otomatik tanımladık */
+margin:0px;
+padding:0px;
+}
+
+.left{
+
+background-color: cornflowerblue;
+padding: 20px;
+width: 20%;
+float: left; /*divlerin yan yana getirilmesini sağlar*/
+}
+
+
+.main{
+background-color:lightgray;
+padding: 20px;
+width:60%;
+float: left;
+}
+
+.right{
+
+    background-color: cadetblue;
+    padding: 20px;
+    width:20%;
+    float: left;
+}
+/* mobil moda geçirir ve genişlik 400 px altına indiğinde
+left main ve right divleri %100 olarak gösterilir 
+Mobil site tasarımlarında bu kodlar yazılarak optimizasyon
+sağlanır */
+
+@media screen and ( max-width: 600px){
+    .left, .main , .right{
+        width: 100%;
+    }
+
+}
+    

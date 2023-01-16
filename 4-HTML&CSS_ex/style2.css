@@ -1,0 +1,41 @@
+#ilkdiv{
+    background-color: black;color:white}
+
+
+.box{
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    margin: 20px; 
+    padding: 20px;
+}
+
+#box1{
+    background: red;
+}
+#box2{
+    background: green;
+}
+
+#box3{
+    background: blue;
+}
+#box4{
+    background: gray;
+}
+#box5{
+    background:purple;
+}
+
+
+ul{list-style: none;}  /*  listin başındaki simgeyi siler */
+a{text-decoration: none;} /*alt çizgiyi siler*/
+
+a:hover{color:brown;
+
+}
+
+.menu ul li{display: inline-block;/* menü elemanlarının yanyana gelmesini sağlar */
+padding: 20px;
+align-items: center;
+}
